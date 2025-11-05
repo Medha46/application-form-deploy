@@ -11,10 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'skills' => $_POST['skills'] ?? ''
     ];
     
-    header("Location: response.php");
+    header("Location: /api/response.php");
     exit();
 } else {
-    header("Location: index.html");
+    header("Location: /api/index.php");
     exit();
 }
 ?>
@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <strong>Course:</strong> <?php echo $course; ?><br>
       <strong>Skills:</strong> <?php echo nl2br($skills); ?><br>
     </div>
-    <a href="./index.html">← Go Back</a>
+    <a href="./index.php">← Go Back</a>
   </div>
 </body>
 </html>
