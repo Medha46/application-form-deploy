@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <strong>Course:</strong> <?php echo $course; ?><br>
       <strong>Skills:</strong> <?php echo nl2br($skills); ?><br>
     </div>
-    <a href="index.html">← Go Back</a>
+    <a href="./index.html">← Go Back</a>
   </div>
 </body>
 </html>

@@ -169,7 +169,7 @@ $data = $_SESSION['form_data'];
     </div>
 
     <div class="actions">
-      <a href="index.html" class="btn-secondary">← Register Another</a>
+      <a href="./index.html" class="btn-secondary">← Register Another</a>
       <button onclick="window.print()" class="btn-primary">Print Details</button>
     </div>
   </div>
